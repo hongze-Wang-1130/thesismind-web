@@ -13,7 +13,8 @@
 <a href="https://thesismindai.com"><b>在线体验</b></a> ·
 <a href="https://thesismindai.com/partner"><b>成为合作伙伴</b></a> ·
 <a href="#-三步上线"><b>部署指南</b></a> ·
-<a href="#-常见问题"><b>常见问题</b></a>
+<a href="#-常见问题"><b>常见问题</b></a> ·
+<a href="#-联系我们"><b>联系我们</b></a>
 </p>
 
 <p>
@@ -221,7 +222,7 @@ docker run -d --name thesismind-web -p 8080:80 \
 | **自建前端**（就是这个仓库） | 想完全掌控域名和样式 | 照上面三步部署 |
 | **接口对接** | 有自己的产品和开发团队 | 按对接文档调用接口 |
 
-👉 **[了解合作伙伴计划](https://thesismindai.com/partner)**
+👉 **[了解合作伙伴计划](https://thesismindai.com/partner)**，或者 [扫码加微信](#-联系我们) 直接聊。
 
 <details>
 <summary><b>English</b></summary>
@@ -233,7 +234,19 @@ It is a set of static files: drop them on any web server, point your own domain 
 
 To deploy, [become a ThesisMind partner](https://thesismindai.com/partner), register your origin domain, upload `dist/`, and serve it over HTTPS with a single-page-app fallback (`try_files $uri /index.html;`). A `Dockerfile` is included.
 
+Questions about the product, partnerships or custom deployments? Scan the WeChat QR code in [Contact](#-联系我们).
+
 </details>
+
+## 💬 联系我们
+
+<div align="center">
+
+<img src="docs/wechat-qr.jpg" width="200" alt="微信二维码" />
+
+<sub><b>微信扫一扫</b>：了解产品、合作伙伴计划、部署与定制，都可以直接聊</sub>
+
+</div>
 
 ## 📄 许可与说明
 
