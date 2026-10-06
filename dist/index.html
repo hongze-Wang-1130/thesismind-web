@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <script src="/config.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function () {
+        try {
+          var p = localStorage.getItem("thesis-theme") || "system";
+          var h = new Date().getHours();
+          var dark = p === "dark" || (p === "system" && (h >= 19 || h < 7));
+          document.documentElement.classList.toggle("dark", dark);
+          document.documentElement.style.colorScheme = dark ? "dark" : "light";
+        } catch (e) {}
+      })();
+    </script>
+    <title>…</title>
+    <script>
+      (function () {
+        if (!/^\/(embed|s)(\/|$)/.test(location.pathname) && !window.__THESIS_SITE_HOST__ && !window.THESIS_SHELL_CONFIG) return;
+        document.title = "…";
+        var metas = document.querySelectorAll('meta[name="description"], meta[property^="og:"]');
+        for (var i = 0; i < metas.length; i++) metas[i].parentNode.removeChild(metas[i]);
+        var icon = document.querySelector('link[rel~="icon"]');
+        if (icon) icon.href = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'/%3E";
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/shell-D6wP3r_R.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/shell-De6AeJjz.css">
+    <link rel="stylesheet" href="/custom.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
