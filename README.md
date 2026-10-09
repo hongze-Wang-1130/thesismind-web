@@ -43,7 +43,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### 📝 一份文稿，一条线写到底
+### 📝 一篇论文，一条线写到底
 任务书 → 开题报告 → 初稿 → 按导师意见修改 → 答辩稿与答辩 PPT。题目、研究方法、参考文献、学校格式全程同一套，前后对得上。
 
 </td>
@@ -102,11 +102,11 @@
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screenshots/project-light.png" alt="新建文稿：从哪一步开始都行" /></td>
+<td width="50%"><img src="docs/screenshots/project-light.png" alt="新建论文：从哪一步开始都行" /></td>
 <td width="50%"><img src="docs/screenshots/figures-light.png" alt="一键画图：说一句话就出图" /></td>
 </tr>
 <tr>
-<td align="center"><sub>新建文稿：从任务书、开题、初稿，或者从修改、答辩开始都行</sub></td>
+<td align="center"><sub>新建论文：从任务书、开题、初稿，或者从修改、答辩开始都行</sub></td>
 <td align="center"><sub>一键画图：说清要画什么，或者把数据、建表语句贴进来</sub></td>
 </tr>
 <tr>
