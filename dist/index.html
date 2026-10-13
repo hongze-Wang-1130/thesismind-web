@@ -19,6 +19,7 @@
     <script>
       (function () {
         if (!/^\/(embed|s)(\/|$)/.test(location.pathname) && !window.__THESIS_SITE_HOST__ && !window.THESIS_SHELL_CONFIG) return;
+        document.documentElement.setAttribute("data-partner", "");
         document.title = "…";
         var metas = document.querySelectorAll('meta[name="description"], meta[property^="og:"]');
         for (var i = 0; i < metas.length; i++) metas[i].parentNode.removeChild(metas[i]);
@@ -26,11 +27,14 @@
         if (icon) icon.href = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'/%3E";
       })();
     </script>
-    <script type="module" crossorigin src="/assets/shell-cln8GdJv.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/shell-BZzT7omg.css">
+    <script type="module" crossorigin src="/assets/shell-C1NceHuF.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/shell-tZTwNLi7.css">
     <link rel="stylesheet" href="/custom.css" />
   </head>
   <body>
     <div id="root"></div>
+    <div class="boot-splash" style="display:none" aria-hidden="true">
+      <svg class="spinner boot-late" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"><line x1="12" y1="2.75" x2="12" y2="7.25" stroke-opacity="1" transform="rotate(0 12 12)"/><line x1="12" y1="2.75" x2="12" y2="7.25" stroke-opacity="0.22" transform="rotate(45 12 12)"/><line x1="12" y1="2.75" x2="12" y2="7.25" stroke-opacity="0.3" transform="rotate(90 12 12)"/><line x1="12" y1="2.75" x2="12" y2="7.25" stroke-opacity="0.4" transform="rotate(135 12 12)"/><line x1="12" y1="2.75" x2="12" y2="7.25" stroke-opacity="0.5" transform="rotate(180 12 12)"/><line x1="12" y1="2.75" x2="12" y2="7.25" stroke-opacity="0.62" transform="rotate(225 12 12)"/><line x1="12" y1="2.75" x2="12" y2="7.25" stroke-opacity="0.75" transform="rotate(270 12 12)"/><line x1="12" y1="2.75" x2="12" y2="7.25" stroke-opacity="0.88" transform="rotate(315 12 12)"/></svg>
+    </div>
   </body>
 </html>
