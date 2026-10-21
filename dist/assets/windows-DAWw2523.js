@@ -1,0 +1,2 @@
+var e=`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-24.811 -24.811 305.623 305.623"><g fill="#000000"><path fill="#0078d4" d="M0 0h121.33v121.33H0zm134.67 0H256v121.33H134.67zM0 134.67h121.33V256H0zm134.67 0H256V256H134.67z"/></g></svg>
+`;export{e as default};

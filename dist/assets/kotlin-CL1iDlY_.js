@@ -1,0 +1,2 @@
+var e=`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-15.554 -15.554 287.109 287.109"><g fill="#000000"><defs><linearGradient id="__tl__SVGxUOMRb3d" x1="99.991%" x2=".01%" y1="-.011%" y2="100.01%"><stop offset=".344%" stop-color="#e44857"/><stop offset="46.89%" stop-color="#c711e1"/><stop offset="100%" stop-color="#7f52ff"/></linearGradient></defs><path fill="url(#__tl__SVGxUOMRb3d)" d="M256 256H0V0h256L128 127.95z"/></g></svg>
+`;export{e as default};
