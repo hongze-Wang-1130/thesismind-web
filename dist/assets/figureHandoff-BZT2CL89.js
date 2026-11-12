@@ -1,0 +1,1 @@
+var e=`figure-hub-handoff-v1`;function t(t){try{sessionStorage.setItem(e,JSON.stringify({...t,at:Date.now()}))}catch{}}function n(t){try{let n=sessionStorage.getItem(e);if(!n)return null;let r=JSON.parse(n);return r?.tool!==t||(sessionStorage.removeItem(e),Date.now()-Number(r.at||0)>6e5)?null:r}catch{return null}}export{t as n,n as t};

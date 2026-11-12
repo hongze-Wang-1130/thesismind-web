@@ -1,0 +1,1 @@
+import{Ot as e,t}from"./utils-CXuAp3xe.js";var n=e();function r({hint:e,children:r,className:i}){return(0,n.jsxs)(`div`,{"data-slot":`submit-row`,className:t(`flex flex-wrap items-center gap-x-3 gap-y-1.5`,i),children:[r,e?(0,n.jsx)(`span`,{className:`text-[13px] leading-5 text-muted-foreground`,children:e}):null]})}export{r as t};

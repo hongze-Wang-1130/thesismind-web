@@ -1,0 +1,1 @@
+import{n as e}from"./toast-BfEzNeaT.js";import{n as t,t as n}from"./clipboard-D20r3hSi.js";async function r(n,r=`已复制`){let i=await t(n);return i?e.success(r):e.error(`没有复制成功`,`请手动选中复制。`),i}async function i(t,r=`已复制，粘贴到 Word、WPS 或 Excel 即成表格`){let i=await n(t);return i?e.success(r):e.error(`没有复制成功`,`请手动选中复制。`),i}export{r as n,i as t};
